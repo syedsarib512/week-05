@@ -1,0 +1,14 @@
+{
+    "name": "my-app-backend",
+    "version": "1.0.0",
+    "description": "Backend for my React and Node.js application",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "build": "cd ../frontend && npm install && npm run build && cd ../backend"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
